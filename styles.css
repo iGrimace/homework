@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cell1, #cell3, #cell5, #cell7, #cell9, #cell11, #cell13, #cell15 {
+    background-color: #2ecc71;
+}
+
+#cell2, #cell4, #cell6, #cell8, #cell10, #cell12, #cell14, #cell16 {
+    background-color: #e74c3c;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
