@@ -22,11 +22,12 @@ header, section {
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 10px;
     position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
