@@ -14,13 +14,8 @@ body {
     max-width: 800px;
 }
 
-header, section {
+header, section, footer{
     padding: 10px;
-}
-footer {
-            text-align: center;
-            margin-top: auto; 
-            padding: 20px;
 }
 nav {
     display: flex;
