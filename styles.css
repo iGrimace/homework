@@ -14,10 +14,13 @@ body {
     max-width: 800px;
 }
 
-header, section, footer {
+header, section {
     padding: 10px;
 }
-
+footer {
+            text-align: center;
+            margin-top: auto; /* Zorgt ervoor dat de footer onderaan wordt geplaatst */
+            padding: 20px;
 nav {
     display: flex;
     justify-content: center;
