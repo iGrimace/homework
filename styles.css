@@ -14,10 +14,21 @@ body {
     max-width: 800px;
 }
 
-header, section, footer{
+header, section {
     padding: 10px;
 
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 nav {
     display: flex;
     justify-content: center;
