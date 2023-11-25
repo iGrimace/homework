@@ -15,7 +15,9 @@ body {
 }
 
 header, section, footer{
+    text-align: center;
     padding: 10px;
+
 }
 nav {
     display: flex;
