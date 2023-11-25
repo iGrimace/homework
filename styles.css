@@ -19,7 +19,7 @@ header, section {
 }
 footer {
             text-align: center;
-            margin-top: auto; /* Zorgt ervoor dat de footer onderaan wordt geplaatst */
+            margin-top: auto; 
             padding: 20px;
 nav {
     display: flex;
