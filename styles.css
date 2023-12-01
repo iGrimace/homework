@@ -90,3 +90,12 @@ button:hover {
 button:active {
     background-color: #777;
 }
+@media screen and (max-width: 600px) {
+  .centraal-gedeelte {
+    flex-direction: column; /* Stapel de linkerdeel en rechterdeel op elkaar voor kleinere schermen */
+  }
+
+  .linkerdeel, .rechterdeel {
+    flex: 1; /* Neem volledige breedte in op kleinere schermen */
+  }
+}
